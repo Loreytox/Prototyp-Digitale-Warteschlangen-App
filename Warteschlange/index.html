@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Digitale Warteschlange</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Warteschlangen-App</h1>
+      <p>Ihre Nummer:</p>
+      <div class="number" id="userNumber">-</div>
+      <button onclick="getNumber()">Nummer ziehen</button>
+
+      <div class="queue">
+        <p>Aktuelle Warteschlange:</p>
+        <div id="queueDisplay"></div>
+      </div>
+
+      <p>Aktuell aufgerufen: <strong id="currentCall">0</strong></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
